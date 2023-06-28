@@ -189,4 +189,19 @@ a {
 .content img{
   width: 20%;
 }
+
+@media (max-width: 1200px){
+
+.side{
+  margin-right: 5%;
+}
+
+}
+
+@media (max-width: 1035px){
+
+.side{
+  display: none;
+}
+}
 </style>

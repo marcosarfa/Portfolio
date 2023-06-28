@@ -12,7 +12,6 @@
       </div>
       <div>
         <h2>{{t('home.saludo')}}</h2>
-        <!-- <h2>Hola! soy Marcos Ariel Fabián</h2> -->
         <h3>{{ t('home.puesto') }}</h3>
       </div>
     </div>
@@ -33,6 +32,7 @@
 }
 
 #profile img{
+  z-index: -1;
   position: relative;
   bottom: 7%;
   width: 100%;

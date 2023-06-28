@@ -9,9 +9,9 @@ import Side2 from '../components/Side2.vue';
 
 <template>
   <Header />
-  <main class="d-flex align-items-center justify-content-center p-2">
+  <main class="d-flex align-items-center justify-content-center">
     <Side1 />
-    <div>
+    <div class="center">
       <TheWelcome />
       <AboutMe />
       <!-- <Section /> -->
@@ -20,5 +20,24 @@ import Side2 from '../components/Side2.vue';
   </main>
 </template>
 <style scoped>
+
+  .center{
+    min-width: 50%;
+    height: 100%;
+  }
+
+  @media (max-height: 924px) {
+  .center{
+    height: 90%;
+  }  
+}
+
+@media (max-width: 1035px){
+
+.center{
+  width: 90%;
+  height: 50%;
+}
+}
 
 </style>

@@ -21,7 +21,8 @@ const messages = {
     header:{
       dark: 'Cambiar a Modo Oscuro',
       light: 'Cambiar a Modo Claro'
-    }
+    },
+    flag: 'https://www.clipartmax.com/png/middle/41-413003_english-uk-flag-circle-vector.png'
    },
   en: { 
     home:{
