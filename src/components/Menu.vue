@@ -12,7 +12,7 @@
                     <li><a href="https://www.linkedin.com/in/marcosafabian/" type="button">Linkedin</a></li>
                     <li><a href="https://github.com/marcosarfa" type="button">GitHub</a></li>
                     <li><a href="/">{{ $t('side.projects') }}</a></li>
-                    <li><a href="#testimonials">{{ $t('side.cv') }}</a></li>
+                    <li><a href="#https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link">{{ $t('side.cv') }}</a></li>
                 </ul>
             </div>
         </nav>
