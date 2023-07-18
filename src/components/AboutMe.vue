@@ -11,7 +11,7 @@
         <div class="d-flex justify-content-center flex-wrap">
             <div class="face1">
                 <div id="contHtml">
-                    <img id="html" src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-1024.png" alt="HTML">
+                    <img id="html" src="../assets/img/html.png" alt="HTML">
                 </div>
                 <div class="face2">
                     <p>HTML</p>
@@ -19,9 +19,7 @@
             </div>
             <div class="face1">
                 <div id="contCss">
-                    <img id="css"
-                        src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/css-beginners-tutorial.jpg"
-                        alt="CSS">
+                    <img id="css" src="../assets/img/css.jpg" alt="CSS">
                 </div>
                 <div class="face2">
                     <p>CSS 3</p>
@@ -29,7 +27,7 @@
             </div>
             <div class="face1">
                 <div id="contJs">
-                    <img id="js" src="https://th.bing.com/th/id/OIP.fxMFAWgcs9ASnyZoIMeLJAAAAA?pid=ImgDet&rs=1" alt="JavaScript">
+                    <img id="js" src="../assets/img/js.jpeg" alt="JavaScript">
                 </div>
                 <div class="face2">
                     <p>JavaScript</p>
@@ -37,7 +35,7 @@
             </div>
             <div class="face1">
                 <div id="contBoots">
-                    <img id="bootstrap" src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png"
+                    <img id="bootstrap" src="../assets/img/bootstrap.png"
                         alt="Bootstrap">
                 </div>
                 <div class="face2">
@@ -46,7 +44,7 @@
             </div>
             <div class="face1">
                 <div id="contVue">
-                    <img id="vue" src="https://miro.medium.com/max/600/1*yeAO-nwsAqnzr7k-zoDkoQ.png" alt="Vue">
+                    <img id="vue" src="../assets/img/vue.png" alt="Vue">
                 </div>
                 <div class="face2">
                     <p>Vue CLI</p>
@@ -64,7 +62,7 @@
             </div>
             <div class="face1">
                 <div id="contSql">
-                    <img id="sql" src="https://dosideas.com/images/cursos/sql.jpg" alt="">
+                    <img id="sql" src="../assets/img/sql.jpg" alt="">
                 </div>
                 <div class="face2">
                     <p>SQL</p>
@@ -72,7 +70,7 @@
             </div>
             <div class="face1">
                 <div id="contApex">
-                    <img id="apex" src="https://kwfoundation.org/wp-content/uploads/2022/02/Apex.jpg" alt="">
+                    <img id="apex" src="../assets/img/Apex.jpg" alt="">
                 </div>
                 <div class="face2">
                     <p>Oracle APEX</p>
