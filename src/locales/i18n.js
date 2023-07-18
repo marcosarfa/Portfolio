@@ -11,7 +11,7 @@ const messages = {
     about:{
       ofMe: 'Un poco sobre mi...',
       argentino: 'Soy Argentino, siempre me gustó la computación y el desarrollo tecnológico',
-      agronomo: 'Soy Ing. Agrónomo pero de niño estudié programación y siempre me ha gustado.',
+      agronomo: 'Me recibí de Ing. Agrónomo pero de niño estudié programación y siempre me ha gustado. Soy una persona proactiva, excelente compañero de equipo, responsable y que escucha a los demás. Disfruto mucho aprender cosas nuevas, por lo que mi objetivo es seguir creciendo para poder compartir mis experiencias y sumar nuevos conocimientos.',
       tecnologias: 'Tecnologías que manejo... por ahora:'
     },
     side:{
@@ -34,7 +34,7 @@ const messages = {
     about:{
       ofMe: "A little about me...",
       argentino: "I'm Argentinian, I always liked computers and technological development",
-      agronomo: "I'm Agricultural Engineer but when as a child I studied programming and I have always liked it.",
+      agronomo: "I graduated as an Agronomist Engineer but as a child I studied programming and I have always liked it. I am a proactive person, an excellent team player, responsible and a good listener. I really enjoy learning new things, so my goal is to keep growing to be able to share my experiences and add new knowledge.",
       tecnologias: "Technologies that I handle... for now:"
     },
     side:{

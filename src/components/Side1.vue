@@ -25,7 +25,6 @@
         </div>
         <div class="face face2">
           <div class="content">
-            <p> </p>
             <a href="https://www.linkedin.com/in/marcosafabian/" target="_blank" type="button">/marcosafabian</a>
           </div>
         </div>
@@ -112,17 +111,10 @@
   opacity: .2;
   transition: 0.5s;
   text-align: center;
-
-
-
-
-
-
 }
 
 .container .card:hover .face.face1 .content {
   opacity: 1;
-
 }
 
 .container .card .face.face1 .content i {
@@ -136,8 +128,6 @@
   font-size: 1em;
   color: white;
   text-align: center;
-
-
 }
 
 .container .card .face.face1 .content a {
@@ -158,8 +148,6 @@
 
 .container .card:hover .face.face2 {
   transform: translateY(0);
-
-
 }
 
 .container .card .face.face2 .content p,

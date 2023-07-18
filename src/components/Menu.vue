@@ -22,6 +22,7 @@
 
 .navbar{
     visibility: hidden;
+    height: 0px;
 }
 
 @media (max-width: 1034px) {
@@ -91,7 +92,7 @@
     .navbar .menu-items {
         padding-top: 100px;
         background: #060606;
-        height: 100vh;
+        height: 45vh;
         max-width: 300px;
         transform: translate(-150%);
         display: flex;
@@ -101,6 +102,7 @@
         padding-right: 50px;
         transition: transform 0.5s ease-in-out;
         box-shadow: 5px 0px 10px 0px #aaa;
+        z-index: 0;
     }
 
     .navbar .menu-items li {
@@ -132,4 +134,31 @@
         transform: rotate(-35deg);
     }
 }
+
+@media (max-height: 850px) {
+
+    .navbar .menu-items {
+        height:65vh;
+    }
+
+}
+
+@media (max-height: 625px) {
+
+.navbar .menu-items {
+    height:80vh;
+}
+
+}
+
+@media (max-height: 465px) {
+
+.navbar .menu-items {
+    height:100vh;
+}
+
+}
+/* 
+@media (max-height:) */
+
 </style>

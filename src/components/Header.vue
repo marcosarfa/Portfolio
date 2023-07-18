@@ -52,7 +52,9 @@ onMounted(() => {
                 <input v-model="isDark" class="form-check-input" type="checkbox" role="switch" id="Dark-Mode">
                 <label v-if="!isDark" class="tdark form-check-label" for="Dark-Mode"> {{ $t('header.dark') }}</label>
                 <label v-else class="tlight form-check-label" for="Dark-Mode"> {{ $t('header.light') }}</label>
-                <img src="https://cdn2.iconfinder.com/data/icons/images-and-photography-2/24/light-mode-dark-light-1024.png" alt="">
+                <img v-if="!isDark" src="https://th.bing.com/th/id/R.aeb3c06c326e5a03e85f571f87985455?rik=vSv6lsXejotR1A&pid=ImgRaw&r=0" alt="">
+                <img v-else src="https://cdn1.iconfinder.com/data/icons/web-interface-63/32/34_-_Light_Dark_Mode-512.png" alt="">
+                <!-- <img src="https://cdn2.iconfinder.com/data/icons/images-and-photography-2/24/light-mode-dark-light-1024.png" alt=""> -->
             </div>
         </div>
     </div>
