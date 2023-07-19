@@ -26,6 +26,10 @@ import Side2 from '../components/Side2.vue';
     height: 100%;
   }
 
+  header{
+    z-index: 4;
+  }
+
   @media (max-height: 924px) {
   .center{
     height: 90%;

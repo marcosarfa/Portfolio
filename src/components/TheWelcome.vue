@@ -17,8 +17,6 @@
     </div>
 
     <h1 class="p-3">{{ t('home.titulo') }}</h1>
-
-    <h4>{{ t('home.deseo') }}</h4>
   </div>
 </template>
 <style scoped>

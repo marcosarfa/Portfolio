@@ -9,16 +9,20 @@
                 </div>
                 <ul class="menu-items">
                     <li><a href="mailto:marcosarfa@gmail.com" type="button">E-mail</a></li>
-                    <li><a href="https://www.linkedin.com/in/marcosafabian/" type="button">Linkedin</a></li>
-                    <li><a href="https://github.com/marcosarfa" type="button">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/marcosafabian/" target="_blank" type="button">Linkedin</a></li>
+                    <li><a href="https://github.com/marcosarfa" target="_blank" type="button">GitHub</a></li>
                     <li><a href="/">{{ $t('side.projects') }}</a></li>
-                    <li><a href="#https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link">{{ $t('side.cv') }}</a></li>
+                    <li><a href="https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link" target="_blank">{{ $t('side.cv') }}</a></li>
                 </ul>
             </div>
         </nav>
 </template>
 
 <style>
+
+a{
+    text-decoration: none;
+}
 
 .navbar{
     visibility: hidden;
@@ -158,7 +162,5 @@
 }
 
 }
-/* 
-@media (max-height:) */
 
 </style>
