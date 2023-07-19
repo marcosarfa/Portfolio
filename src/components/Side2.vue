@@ -1,3 +1,13 @@
+<script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
+function getLink(route) {
+  return t(route);
+}
+</script>
+
 <template>
   <div class="side">
     <div class="container cont1">
@@ -15,8 +25,8 @@
       <div class="card">
         <div class="face face1">
           <div class="content">
-            <a href="https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link"
-              class="button-43" target="_blank"> {{ $t('side.cv') }}</a>
+            <a :href="getLink('cv')" class="button-43" target="_blank"> {{ $t('side.cv') }}</a>
+            <!-- <a href="https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link" class="button-43" target="_blank"> {{ $t('side.cv') }}</a> -->
           </div>
         </div>
 
@@ -151,13 +161,12 @@
   }
 }
 
-@media (max-width: 1035px){
+@media (max-width: 1035px) {
 
-.side{
-  display: none;
+  .side {
+    display: none;
+  }
 }
-}
-
 </style>
 
 

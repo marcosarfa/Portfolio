@@ -1,3 +1,13 @@
+<script setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
+function getLink(route) {
+  return t(route);
+}
+</script>
+
 <template>
         <nav class="navbar">
             <div class="navbar-container container">
@@ -12,7 +22,7 @@
                     <li><a href="https://www.linkedin.com/in/marcosafabian/" target="_blank" type="button">Linkedin</a></li>
                     <li><a href="https://github.com/marcosarfa" target="_blank" type="button">GitHub</a></li>
                     <li><a href="/">{{ $t('side.projects') }}</a></li>
-                    <li><a href="https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link" target="_blank">{{ $t('side.cv') }}</a></li>
+                    <li><a :href="getLink('cv')" class="button-43" target="_blank"> {{ $t('side.cv') }}</a></li>
                 </ul>
             </div>
         </nav>

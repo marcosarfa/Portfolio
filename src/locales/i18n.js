@@ -21,7 +21,7 @@ const messages = {
       dark: 'Cambiar a Modo Oscuro',
       light: 'Cambiar a Modo Claro'
     },
-    flag: 'https://www.clipartmax.com/png/middle/41-413003_english-uk-flag-circle-vector.png'
+    cv: 'https://drive.google.com/file/d/1CqhnAdkkkHjfnQHAz0a-QqHCb3Tx1cw0/view?usp=drive_link'
    },
   en: { 
     home:{
@@ -42,7 +42,8 @@ const messages = {
     header:{
       dark: "Change to Dark Mode",
       light: "Change to Light Mode"
-    }
+    },
+    cv: 'https://drive.google.com/file/d/1fdx1DSqqLAw166eQwrNyJ6JaA7zAr6cz/view?usp=drive_link'
    }
 }
 
